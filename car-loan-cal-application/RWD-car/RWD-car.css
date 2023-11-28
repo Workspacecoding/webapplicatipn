@@ -1,0 +1,131 @@
+.custom-box {
+    border: 2px solid rgb(204, 204, 204);
+    border-radius: 30px;
+    width: 100%; /* 宽度可以根据需要调整 */
+    height: 100%;
+    margin: 0 auto; /* 水平居中 */
+    padding: 20px; /* 内边距可以根据需要调整 */
+}
+
+
+/*文字CSS*/
+h3{
+    font-size: 22px;
+    color:black;
+    font-family:Arial, 微軟正黑體, 文泉驛正黑, "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "Microsoft JhengHei", 微软雅黑, メイリオ, "맑은 고딕", sans-serif ;
+    text-align: center;
+    }
+p{
+        font-size:16px;
+        font-family:Arial, 微軟正黑體, 文泉驛正黑, "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "Microsoft JhengHei", 微软雅黑, メイリオ, "맑은 고딕", sans-serif ;
+        color:#777777; 
+        text-align: center;  
+        }
+.p-slider{
+    font-size:14px;
+    font-family:Arial, 微軟正黑體, 文泉驛正黑, "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "Microsoft JhengHei", 微软雅黑, メイリオ, "맑은 고딕", sans-serif ;
+    color:#777777; 
+    text-align: left;  
+
+}
+.p-slider-2{
+    font-size:14px;
+    font-family:Arial, 微軟正黑體, 文泉驛正黑, "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "Microsoft JhengHei", 微软雅黑, メイリオ, "맑은 고딕", sans-serif ;
+    color:#777777; 
+    text-align: right;  
+
+} 
+
+.p-money{
+    font-size: 16px;
+    color:black;
+    margin-bottom: 0px;
+   
+}
+
+.p-memo{
+    font-size:14px;
+    color:#777777; 
+    text-align: left;
+}
+
+
+/*拉桿CSS*/
+
+.custom-slider {
+    -webkit-appearance: none; /* 移除默認樣式 */
+    width: 100%!important; /* 設置寬度 */
+    height: 10px !important; /* 設置高度 */
+    background-color: #ccc; /* 背景顏色 */
+    border-radius: 5px; /* 圓角邊框 */
+    outline: none; /* 移除點擊時的輪廓 */
+}
+
+
+/* 滑塊（拖動按鈕）的樣式 */
+.custom-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    direction: ltr;
+    transition: all 0.2s;
+    width: 50px;
+    height: 50px;
+    background-image: url('https://png.pngtree.com/png-clipart/20220111/ourmid/pngtree-car-hand-drawing-material-picture-lovely-wind-small-fresh-car-png-image_4167246.png');
+    background-size: 100% 100%; /* 设置背景图片填充整个滑块 */
+    border: 2px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+/* 調整滑塊的顏色在拖動時 */
+.custom-slider::-webkit-slider-thumb:hover {
+    background-color: #0056b3; /* 滑塊的背景顏色 */
+    background-image: url("https://png.pngtree.com/png-clipart/20220111/ourmid/pngtree-car-hand-drawing-material-picture-lovely-wind-small-fresh-car-png-image_4167246.png"); /* 将图片路径替换为你想要的图片 */
+}
+
+/*金額區塊CSS*/
+
+.custom-box-01 {
+    background-color:white;
+    border: 1px solid red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin:0;
+}
+.custom-box-02 {
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin:0;
+}
+
+.custom-box-03 {
+    color: #777777;
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+    margin:0;
+}
+
+.month{
+
+}
+
+input {
+    border: none; /* 移除边框 */
+    outline: none; /* 移除外观上的边框 */
+    font-size: 14px; /* 设置字体大小，你可以根据需要调整大小 */
+    padding:0px 0px;
+    text-align:center;
+
+}
+
+output::before {
+    content: "NT$ ";
+}
+
+
+

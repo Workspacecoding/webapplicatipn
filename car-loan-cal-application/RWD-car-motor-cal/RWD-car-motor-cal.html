@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>響應式汽機車貸款試算器</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="RWD-car-motor.css">
+<!--bootstrap套件-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+   
+   
+<!--汽車-->
+
+<div id="div1" class="content">
+    <div class="container mt-5">
+        <div class="custom-box">
+            <h3>汽車貸款試算表</h3>
+            <p class="p-button">請選擇貸款車別，這樣才能使用左右滑動圖示，試算你的汽／機車貸款金額：<button class="car-but"onclick="showDiv('div1')">汽車貸款</button>
+                <button class="moto-but" onclick="showDiv('div2')">機車貸款</button></p>
+                <p class="p-ins">請左右滑動車子選擇貸款金額，並選取預計貸款期數後，即可試算車貸月付金</p>
+               
+            <br/>
+<!--拉桿位置-->
+
+<div class="container">
+    <div class="row">
+    
+        <!-- 左边列，占据10%的宽度 -->
+        <div class="col-sm-2">
+            <!-- 内容放在这里 -->
+            <p class="p-slider">10萬</p>
+        </div>
+        <!-- 中间列，占据80%的宽度 -->
+    
+        <div class="col-sm-7">
+            <!-- 内容放在这里 -->
+            
+            <form oninput="result.value = Math.ceil((parseInt(a.value) * 0.1 / 12) / (1 - Math.pow(1 + 0.1 / 12, -parseInt(b.value))));">
+                <input id="a" max="3500000" min="100000" name="a" orient="vertical" step="0.0001" style="border-radius:20px" type="range"  class="custom-slider"value="100000" />
+        </div>
+   
+        <!-- 右边列，占据10%的宽度 -->
+        <div class="col-sm-2">
+            <!-- 内容放在这里 -->
+            <p class="p-slider-2">350萬</p>
+        </div>
+<br/>
+<br/>
+        <div class="container">
+            <div class="row no-gutters">
+                <!-- 第一列，占四分之一空間 -->
+                <div class="col-sm-4 col-12">
+                    <br/>
+                <p>貸款金額</p>
+                 <div class="custom-box-03">
+                        <p  class="p-money"id="loanAmountDisplay"></p> 
+                    </div>
+                </div>
+                <!-- 第二列，占四分之一空間 -->
+                <div class="col-sm-4 col-12">
+                    <br/>
+                    <p>貸款期數</p>
+                    <div class="custom-box-01">
+                        <input class="month" id="b" max="84" min="12" name="b" type="number" value="84" /> 
+                    </div>
+                </div>
+                <!-- 第三列，占四分之一空間 -->
+                <div class="col-sm-4 col-12">
+                    <br/>
+                    <p>每月繳款</p>
+                    <div class="custom-box-02">
+                        <output for="a b" name="result">77856</output>
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+       
+    </div>
+    </div>
+    <div class="container">
+        <!-- 使用 Bootstrap 样式创建一个文字靠左的 div -->
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="text-left"></div>
+                    <br/>
+                    <p class="p-memo">注意事項<br/>
+                        本服務之試算結果僅供參考，本公司將根據您實際信用狀況及提供資料，保留最後核貸與否及核貸金額之權利。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+</div>
+
+        </div>
+       
+    </div>
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--汽車-->
+
+<!--機車貸款-->
+<div id="div2" class="content">
+<div class="container mt-5">
+    <div class="custom-box">
+        <h3>機車貸款試算表</h3>
+        <p class="p-button">請選擇貸款車別，這樣才能使用左右滑動圖示，試算你的汽／機車貸款金額：<button class="car-but"onclick="showDiv('div1')">汽車貸款</button>
+            <button class="moto-but" onclick="showDiv('div2')">機車貸款</button></p>
+        
+        <p class="p-ins">請左右滑動車子選擇貸款金額，並選取預計貸款期數後，即可試算車貸月付金</p>
+        <br/>
+<!--拉桿位置-->
+
+<div class="container">
+<div class="row">
+
+    <!-- 左边列，占据10%的宽度 -->
+    <div class="col-sm-2">
+        <!-- 内容放在这里 -->
+        <p class="p-slider">10萬</p>
+    </div>
+    <!-- 中间列，占据80%的宽度 -->
+
+    <div class="col-sm-7">
+        <!-- 内容放在这里 -->
+        
+        <form oninput="result.value = Math.ceil((parseInt(x.value) * 0.1 / 12) / (1 - Math.pow(1 + 0.1 / 12, -parseInt(y.value))));">
+            <input id="x" max="350000" min="100000" name="x" orient="vertical" step="0.0001" style="border-radius:20px" type="range"  class="custom-slider2"value="100000" />
+    </div>
+
+    <!-- 右边列，占据10%的宽度 -->
+    <div class="col-sm-2">
+        <!-- 内容放在这里 -->
+        <p class="p-slider-2">35萬</p>
+    </div>
+<br/>
+<br/>
+    <div class="container">
+        <div class="row no-gutters">
+            <!-- 第一列，占四分之一空間 -->
+            <div class="col-sm-4 col-12">
+                <br/>
+            <p>貸款金額</p>
+             <div class="custom-box-04">
+                    <p  class="p-money" id="loanAmountDisplay2"></p> 
+                </div>
+            </div>
+            <!-- 第二列，占四分之一空間 -->
+            <div class="col-sm-4 col-12">
+                <br/>
+                <p>貸款期數</p>
+                <div class="custom-box-01">
+                    <input class="month" id="y" max="84" min="12" name="y" type="number" value="84" /> 
+                </div>
+            </div>
+            <!-- 第三列，占四分之一空間 -->
+            <div class="col-sm-4 col-12">
+                <br/>
+                <p>每月繳款</p>
+                <div class="custom-box-02">
+                    <output for="x y" name="result">77856</output>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+   
+</div>
+</div>
+<div class="container">
+    <!-- 使用 Bootstrap 样式创建一个文字靠左的 div -->
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="text-left"></div>
+                <br/>
+                <p class="p-memo">注意事項<br/>
+                    本服務之試算結果僅供參考，本公司將根據您實際信用狀況及提供資料，保留最後核貸與否及核貸金額之權利。</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+    </div>
+   
+</div>
+
+
+</div>
+</div>
+<!--機車貸款-->
+
+
+
+<!--貸款金額監聽-->
+<script src="loan-money.js"></script>
+
+<!--切換div-->
+<script src="change.js"></script>
+<script>
+
+</script>
+    <!-- 引入 Bootstrap JavaScript 和 jQuery（可选） -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
