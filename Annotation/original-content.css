@@ -1,0 +1,66 @@
+/*mark樣式*/
+mark {
+    background: linear-gradient(transparent 60%, #ffff66 0);
+  }
+
+/* 原始樣式 */
+.comment {
+    position: relative;
+    display: inline-block;
+}
+
+/* 隐藏 checkbox */
+.comment-toggle {
+    display: none;
+}
+
+/* 文本樣式 */
+.comment-text {
+    color: #3498db;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+/* 箭頭樣式 */
+.comment-text::before {
+    content: "▼";
+    float: right; /* 將箭頭浮動到右側 */
+    transition: transform 0.3s ease-in-out;
+    display: inline-block;
+    vertical-align: middle;
+    top: -1px; /* 調整垂直位置以與文本對齊 */
+}
+/* 內容初始狀態 */
+.comment-content {
+    display: none;
+    position: absolute;
+    width: 200px;
+    border-radius: 50px;
+    background-color: #f9f9f9;
+    border-top: 2px solid #4dbed0;
+    padding: 10px;
+    border-radius: 5px;
+    opacity: 0;
+    z-index: 0;
+    transition: opacity 0.3s ease-in-out;
+    box-shadow:5px 5px 10px #888;
+    font-family:"cwTeXYen";
+}
+
+/* 點擊確認 */
+.comment-toggle:checked + .comment-text + .comment-content {
+    display: block;
+    opacity: 1;
+    top: 100%;
+    left: 0;
+}
+
+/* 旋轉箭頭 */
+.comment-toggle:checked + .comment-text::before {
+    transform: rotate(180deg);
+}
+.commet-content{
+ color:#3495CB;
+ font-family:"cwTeXYen";
+}
