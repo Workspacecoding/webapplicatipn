@@ -1,0 +1,63 @@
+<!--iframe+git hub 協作-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>carousel</title>
+    <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'self' https://www.euload-tw.com">
+    <link rel="stylesheet" type="text/css" href="carousel.css">
+    <script>
+        // 允許的白名單域名
+        const allowedDomains = ['https://www.euload-tw.com'];
+    
+        // 檢查是否允許被嵌入
+        function isAllowedDomain(url) {
+          return allowedDomains.some(domain => url.startsWith(domain));
+        }
+    
+        const referrer = document.referrer;
+    
+        if (window !== window.top && !isAllowedDomain(referrer)) {
+          // 如果不在白名單內，則重新導向或顯示錯誤訊息等
+          // 這裡我們直接重新導向回首頁
+          window.location.href = "https://www.example.com/";
+        }
+      </script>
+
+
+</head>
+<body>
+
+<div class="slideshow-container">
+    <div class="slide-container">
+        <div class="slide">
+            <img src="https://workspaceprofile.github.io/money.github.io/線上試算額度.jpg" alt="線上試算額度">
+            <div class="caption"><span style="color: #878787; font-family: SimHei;">線上申辦<br/><br/>線上試算額度，專人評估</span></div>
+        </div>
+        <div class="slide">
+            <img src="https://workspaceprofile.github.io/money.github.io/不限職業.jpg" alt="不限職業">
+            <div class="caption"><span style="color: #878787; font-family: SimHei;">辦簡單<br/><br/>不限職業、有車有工作就能辦</span></div>
+        </div>
+        <div class="slide">
+            <img src="https://workspaceprofile.github.io/money.github.io/撥款快速.jpg" alt="撥款快速">
+            <div class="caption"><span style="color: #878787; font-family: SimHei;font: size 22px;">撥款快速<br/><br/><span style="color: #878787; font-family: SimHei;font: size 16px;"></span>送審完畢，隔天入帳</span></div>
+        </span></div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <div class="dot-container">
+        <span class="dot" onclick="currentSlide(0)"></span>
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <!-- 添加更多圓圈以匹配幻燈片數量 -->
+    </div>
+</div>
+<br/>
+<br/>
+<br/>
+<center>
+<a href="https://www.euload-tw.com/inquiry" style="weight:164px;display: inline-block;margin: 6px;white-space: nowrap;line-height: 1.3;border: none;padding: 1rem 2rem;letter-spacing: 2px;text-decoration: none;font-weight: bold;font-size: 12px;border-radius: 24px;background-color:#87D1DC;color:#4DBED0" target="_blank"><span style="color:#ffffff;">立即申請</span></a></p>
+</center>
+<script src="carousel.js"></script>
+</body>
+</html>

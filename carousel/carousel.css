@@ -1,0 +1,61 @@
+.slideshow-container {
+    max-width: 400px;
+    position: relative;
+    margin: auto;
+}
+
+.slide-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.caption {
+    margin-top: 20px;
+}
+
+.dot-container {
+text-align: center;
+margin-top:20px;
+}
+/* 圓圈指示器的基本樣式 */
+.dot {
+height: 8px;
+width: 8px;
+margin: 0 8px; /* 設置圓圈之間的間距 */
+background-color: #f2f2f2; /* 非當前圓圈的背景顏色 */
+border-radius: 50%; /* 使元素成為圓形 */
+display: inline-block;
+transition: background-color 0.3s ease; /* 添加過渡效果 */
+cursor: pointer; /* 鼠標指針樣式為手形 */
+}
+
+/* 當前幻燈片的圓圈樣式（選定狀態） */
+.dot.active {
+background-color: #bbb; /* 當前圓圈的背景顏色 */
+}
