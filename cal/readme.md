@@ -1,4 +1,4 @@
-# 輪播圖
+# 本息均攤試算器
 放置於網站首頁吸引讀者注意
 ## 安裝
  <iframe allowfullscreen="" frameborder="0" heigh="1500px" src="網址" width="100%"></iframe></div>
