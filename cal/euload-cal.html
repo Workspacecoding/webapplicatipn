@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'self' https://www.euload-tw.com/">
+  <title>車貸試算機</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>本息均攤試算器
+    </title>
+    <script>
+        // 允許的白名單域名
+        const allowedDomains = ['https://www.euload-tw.com/'];
+    
+        // 檢查是否允許被嵌入
+        function isAllowedDomain(url) {
+          return allowedDomains.some(domain => url.startsWith(domain));
+        }
+    
+        const referrer = document.referrer;
+    
+        if (window !== window.top && !isAllowedDomain(referrer)) {
+          // 如果不在白名單內，則重新導向或顯示錯誤訊息等
+          // 這裡我們直接重新導向回首頁
+          window.location.href = "https://www.example.com/";
+        }
+      </script>
+     
+</head>
+<body>
+    <h3>車貸試算機</h3>
+
+    <label for="loanAmount" style="font-size: 22px;">你的額度:</label>
+    <input type="number" id="loanAmount" step="any" placeholder="輸入你的貸款金額" required>
+<br/>
+    <label for="interestRate" style="font-size:22px;">你的利率 (%):</label>
+    <input type="number" id="interestRate" step="any" placeholder="輸入你的貸款利率" required>
+<br/>
+    <label for="loanTerm" style="font-size:22px"> 你的期數(月數):</label>
+    <input type="number" id="loanTerm" step="1" placeholder="輸入你的貸款期數" required>
+<br/>
+    <button onclick="calculateAmortization()" style="font-size:20px;">一鍵試算</button>
+
+    <h3>車貸試算表</h3>
+    <table border="1" cellpadding="1" cellspacing="1" style="width:100%;">
+        <tr>
+            <th style="background-color:#4dbed0;color:#ffffff;text-align:center;width:20%">期數</th>
+            <th style="background-color:#4dbed0;color:#ffffff;text-align:center;width:20%">攤還本金</th>
+            <th style="background-color:#4dbed0;color:#ffffff;text-align:center;width:20%">攤還利息</th>
+            <th style="background-color:#4dbed0;color:#ffffff;text-align:center;width:20%">月付金</th>
+            <th style="background-color:#4dbed0;color:#ffffff;text-align:center;width:20%">剩餘本金</th>
+        </tr>
+        <tbody id="amortizationTableBody"></tbody>
+    </table>
+  <script src="cal.js"></script>
+     
+</body>
+</html>
