@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>車貸利率回推</title>
+</head>
+<body>
+  <h1>車貸利率回推</h1>
+  <form id="loanCalculatorForm">
+    <label for="loanAmount">貸款總額：</label>
+    <input type="number" id="loanAmount" required><br>
+
+    <label for="loanTerm">還款期數（月數）：</label>
+    <input type="number" id="loanTerm" required><br>
+
+    <label for="monthlyPayment">月付金：</label>
+    <input type="number" id="monthlyPayment" required><br>
+
+    <input type="button" value="计算" onclick="calculateInterestRate()">
+  </form>
+
+  <p id="result">您的利率是：</p>
+
+  <script src="car-loan-interest-rate.js"></script>
+</body>
+</html>
