@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>車貸利率計算器</title>
+</head>
+<body>
+    <h1>車貸利率計算器</h1>
+
+    <label for="公司類型">公司類型：</label>
+    <select id="公司類型">
+        <option value="" selected disabled>請選擇</option>
+        <option value="上市櫃公司">上市櫃公司</option>
+        <option value="非上市櫃公司">非上市櫃公司</option>
+    </select>
+
+    <label for="薪資級距">薪資級距：</label>
+    <select id="薪資級距">
+        <option value="" selected disabled>請選擇</option>
+        <option value="3-5萬">3-5萬</option>
+        <option value="5-10萬">5-10萬</option>
+        <option value="10萬以上">10萬以上</option>
+    </select>
+    
+    <label for="負債比">負債比：</label>
+    <select id="負債比">
+        <option value="" selected disabled>請選擇</option>
+        <option value="0-30%">0-30%</option>
+        <option value="30-50%">30-50%</option>
+        <option value="50-65%">50-65%</option>
+    </select>
+
+    <br>
+    <br>
+
+    <p>選擇條件相對應的利率為：<span id="顯示利率">請選擇</span></p>
+
+    <script src="select.js"></script>
+</body>
+</html>
