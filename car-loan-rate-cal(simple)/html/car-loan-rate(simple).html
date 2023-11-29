@@ -1,0 +1,15 @@
+<!--純html計算式-->
+<div style="background:#eeeeee;border:1px solid #cccccc;padding:5px 10px;">
+    <p><span style="font-family:Microsoft JhengHei;">【溫馨提醒：本工具採用本息平均攤還計算】</span></p>
+    
+    <form oninput="result.value = (parseInt(a.value) * (parseInt(c.value) / 100) / 12) / (1 - Math.pow(1 + (parseInt(c.value) / 100) / 12, -parseInt(b.value)));">
+    <p><span style="font-family:Microsoft JhengHei;">輸入你的車貸額度</span></p>
+    <span style="font-family:Microsoft JhengHei;"><input id="a" max="350000" min="100000" name="a" type="number" value="350000" /></span>
+    
+    <p><span style="font-family:Microsoft JhengHei;">輸入你的車貸期數</span></p>
+    <span style="font-family:Microsoft JhengHei;"> <input id="b" max="60" min="12" name="b" type="number" value="60" /></span>
+    
+    <p><span style="font-family:Microsoft JhengHei;">輸入你的車貸利率</span></p>
+    <span style="font-family:Microsoft JhengHei;"> <input id="c" max="15" min="0" name="c" type="number" value="2" /> % =</span> <output for="a b c" name="result"> </output></form>
+    </div>
+    
