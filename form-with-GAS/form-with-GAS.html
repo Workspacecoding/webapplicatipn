@@ -1,0 +1,88 @@
+<!--前端寫法-->
+<div class="model-inner w08" style="background: #fff;">
+    <div class="w07">
+    <div class="sx1 sy2 lx4 ly4">
+    <div class="form-wrap form05">
+    <form action="https://script.google.com/macros/s/AKfycbwffT-CSxGXtie4pUAUo8Ex6ilQG9YjoxPF6Po5_fOQG3S_qTz6mbxs_gEzJnsj7tNZ/exec" method="post" 
+    target="_blank">
+    
+    
+    <div class="form-inner">
+    <table>
+        <tbody>
+            <tr>
+                <th>姓名 <i>*</i></th>
+                <td><input id="name" name="name" placeholder="姓名" type="text" value="" /></td>
+            </tr>
+            <tr>
+                <th>電話 <i>*</i></th>
+                <td><input id="phone" name="phone" placeholder="電話" type="text" value="" /></td>
+            </tr>
+            <tr>
+                <th>服務項目</th>
+                <td><select data-placeholder="服務項目" id="service" name="service"><option value="機車融資貸款">機車融資貸款</option><option value="機車增貸">機車增貸</option><option value="VIP續期增貸">VIP續期增貸</option><option value="客服相關問題">客服相關問題</option> </select></td>
+            </tr>
+            <tr>
+                <th>車號 <i>*</i></th>
+                <td><input id="carnumber" name="carnumber" placeholder="不限一台 ，例：ABC-1234 、AAA-6666" type="text" value="" /></td>
+            </tr>
+            <tr>
+                <th>聯絡時間</th>
+                <td><select data-placeholder="" id="connect" name="connect"><option value="早上9:00-12:00">早上9:00-12:00</option><option value="中午12:00-13:30">中午12:00-13:30</option><option value="下午:13:30-17:30">下午:13:30-17:30</option><option value="任何時間">任何時間</option> </select></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                <div class="btn-wrap"><button class="btn btn05" type="reset">清除全部</button><button class="btn btn05" type="submit">送出</button></div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+    </form>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <!--後端:google script app 後端寫法--> 
+    <script>
+    function doPost(e) {
+        var spreadsheet = SpreadsheetApp.openById('1mrsoj2-ofg1W0o6BDTz-dIw0P_XJmkusmBxV9IJuttY');//Excel表ID
+        var sheet = spreadsheet.getSheetByName('Sheet1'); // 替換為您的工作表名稱
+        var data = e.parameter;
+      
+        // 提取表單數據
+        var submissionTime = new Date();
+        var name = data.name;
+        var phone = data.phone;
+        var service = data.service;
+        var carnumber = data.carnumber;
+        var connect = data.connect;
+      
+        // 寫入指定工作表（Sheet1）的 Google Sheets　<!--在Javscript中註解形式為：／／-->
+        sheet.appendRow([submissionTime, name, phone, service,carnumber,connect]);
+      
+        // 清空表單字段
+        data.name = '';
+        data.phone = '';
+        data.service = '';
+        data.carnumber = '';
+        data.connect = '';
+      
+        // 回應客戶端
+        var response = ContentService.createTextOutput("表單已成功提交！");
+        response.setMimeType(ContentService.MimeType.TEXT);
+      
+        // 在客戶端彈出提交成功的方塊訊息，然後導向回原填寫表單的頁面
+        var output = "alert('表單已成功提交！');";
+        output += "setTimeout(function() { window.history.back(); }, 1000);";
+      
+        return response;
+      }
+      
+      function doGet() {
+        return HtmlService.createHtmlOutput("這是一個 Web App。");
+      }
+      
+</script>
