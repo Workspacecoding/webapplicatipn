@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'self' https://mrmoney.com.tw/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  type="text/css" href="mrmoney.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>車貸試算機</title>   
+</head>
+
+<body>
+
+  <div class="container-top">
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+    <h3>車貸試算機</h3>
+   <div class="line">
+  </div>
+</div>
+
+    
+<div class="container text-left">
+  <div class="row row-cols-2">
+            <!-- 左欄 -->
+            <div class="col"><label for="loanAmount" class="label-money">你的額度</label>
+        </div>
+   
+            <!-- 右欄-->
+            <div class="col"> <label for="interestRate" class="label-money">你的利率(%)</label>
+        </div>
+    </div>
+</div>
+
+  <div class="container text-left">
+    <div class="row row-cols-2">
+            <!-- 左欄 -->
+            <div class="col"><input type="number" id="loanAmount" step="any" placeholder="輸入你的貸款金額" required>
+            </div>
+      <div class="col">
+            <!-- 右欄-->
+        <input type="number" id="interestRate" step="any" placeholder="輸入你的貸款利率" required>
+        </div>
+      </div>
+      
+<br/>
+ <div class="container text-left">
+  <div class="row row-cols-12">
+    <label for="loanTerm" class="label-money"> 你的期數</label></div>
+    <div class="row row-cols-12">
+    <input type="number" id="loanTerm" step="1" placeholder="輸入你的貸款期數" required>
+  </div>
+</div>
+<br/>
+<div class="container text-center">
+  <div class="row row-cols-12">
+    <button class="button-cal " onclick="calculateAmortization()">一鍵試算</button>
+  </div>
+</div>
+
+<div class="container-table text-center">
+  <div class="row row-cols-12">
+    <div class="col"><h3 class="h3-table">車貸試算表</h3>
+    <div class="col">
+    <table>
+        <tr class="special-border">
+            <th >期數</th>
+            <th >攤還本金</th>
+            <th >攤還利息</th>
+            <th >月付金</th>
+            <th >剩餘本金</th>
+        </tr>
+        <tbody id="amortizationTableBody"></tbody>
+    </table>
+  </div>
+</div>
+</div>
+  <script src="original-cal.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+     
+</body>
+</html>
