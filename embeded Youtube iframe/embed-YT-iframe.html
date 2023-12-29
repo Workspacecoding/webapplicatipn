@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+  <div data-src="https://www.youtube.com/embed/cowtgmZuai0">
+    <img src="https://i.ytimg.com/vi/cowtgmZuai0/hqdefault.jpg" loading="lazy" />
+    <svg height="300" width="400" version="1.1" viewBox="0 0 68 48"></svg>
+  </div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var elm = document.querySelector("div[data-src]");
+      elm.addEventListener("click", function (event) {
+        var wrapper = event.currentTarget;
+        var src = wrapper.getAttribute("data-src");
+        if (src) {
+          wrapper.removeAttribute("data-src");
+          var iframe = document.createElement("iframe");
+          iframe.src = src + "?autoplay=1"; 
+          iframe.allow = "autoplay"; 
+          iframe.allowFullscreen = true; 
+          wrapper.innerHTML = "";
+          wrapper.appendChild(iframe);
+        }
+      });
+    });
+  </script>
+</body>
+</html>
