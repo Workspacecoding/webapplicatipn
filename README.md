@@ -1,4 +1,4 @@
-# Webapplicatipn
+# Webapplication
 For SEO web application
 ## How to use
 You can use it on your website with 
