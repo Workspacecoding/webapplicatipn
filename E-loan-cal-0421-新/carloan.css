@@ -1,0 +1,2611 @@
+.contain-bg{
+    width:100%;
+    height:1200px;
+    background-color:#EEF1FF;
+
+}
+
+@media screen and (max-width: 1280px) {
+    .contain-bg {
+        width:1280px;
+        height: 800px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .contain-bg {
+        width:1030px;
+        height: 1400px;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .contain-bg {
+        width:950px;
+        height: 1800px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 820px) {
+    .contain-bg {
+        width:100%;
+        height: 1500px;
+    }
+}
+
+@media screen and (max-width: 853px) {
+    .contain-bg {
+     width:900px;
+        height: 1500px;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .contain-bg {
+        width:782px;
+        height: 1200px;
+    }
+}
+
+
+
+@media screen and (max-width: 540px) {
+    .contain-bg {
+      width:550px;
+        height: 1500px;
+    }
+}
+
+
+@media screen and (max-width: 430px) {
+    .contain-bg {
+        width:430px;
+        height: 1000px;
+    }
+}
+
+
+@media screen and (max-width: 414px) {
+    .contain-bg {
+        width:414px;
+        height: 1000px;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .contain-bg {
+        width:430px;
+        height: 1000px;
+    }
+}
+
+
+@media screen and (max-width: 390px) {
+    .contain-bg {
+        width:400px;
+        height: 1000px;
+    }
+}
+
+
+
+@media screen and (max-width: 375px) {
+    .contain-bg {
+        max-width:400px;
+        height: 1000px;
+
+
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .contain-bg {
+        width:400px;
+        height: 950px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .contain-bg {
+        width:400px;
+        height: 1000px;
+    }
+}
+@media screen and (max-width: 280px) {
+    .contain-bg {
+        width:300px;
+        height: 1200px;
+     
+    }
+}
+.contain-01 {
+    width: 1200px;
+    height: 592px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255,0.7); /* 白色 + 70% 透明度 */
+    transition: opacity 0.5s ease;
+    position:absolute;
+    top:10%;
+    left:2.5%;
+    opacity: 0.7;
+}
+
+.contain-01:hover {
+    opacity: 1; /*鼠標指向時的透明度*/
+}
+
+
+@media screen and (max-width: 1280px) {
+    .contain-01 {
+   margin:5px auto;
+        width:1150px;
+        height: 600px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .contain-01 {
+        margin-left:10px;
+        width:850px;
+        height: 1100px;
+    }
+}
+
+
+@media screen and (max-width: 912px) {
+    .contain-01 {
+        margin-left:-8px;
+        width:880px;
+        height: 1100px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 820px) {
+    .contain-01 {
+        margin-left:0px;
+        width:760px;
+        height: 1000px;
+    }
+}
+
+
+@media screen and (max-width: 853px) {
+    .contain-01 {
+        margin-left:-3px;
+     width:730px;
+        height: 1200px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .contain-01 {
+        margin-left:3px;
+        width:710px;
+        height: 950px;
+    }
+}
+
+
+@media screen and (max-width: 540px) {
+    .contain-01 {
+        margin-left:-8px;
+        width:528px;
+        height: 850px;
+
+    }
+}
+
+
+@media screen and (max-width: 430px) {
+    .contain-01 {
+        margin-left:5px;
+        width:400px;
+        height: 850px;
+    }
+}
+
+
+@media screen and (max-width: 414px) {
+    .contain-01 {
+        margin-left:2px;
+        width:390px;
+        height: 850px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .contain-01 {
+        margin-left:3px;
+        width:365px;
+        height: 850px;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .contain-01 {
+        margin-left:3px;
+        width:350px;
+        height: 850px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .contain-01 {
+        margin-left:4px;
+        width:335px;
+        height: 850px;
+    }
+}
+
+
+@media screen and (max-width: 280px) {
+    .contain-01 {
+        margin-left:3px;
+        width:260px;
+        height: 1100px;
+    }
+}
+
+
+.container {
+    display: flex;
+    height: 287px;
+    margin-top: 45px;
+    border: none; /* 移除容器的边框 */
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .container .container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .container .container {
+        width: 100%;
+        margin-left:-85px
+    }
+}
+
+
+.column {
+    flex: 1;
+    padding: 10px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .column-r {
+        flex-basis: 0%;
+        width: 0%;
+    }
+
+    .column-r .container {
+        margin-top: 500px; /* 将容器向下移动500px */
+        margin-left: -550px; /* 将容器与左边的距离设置为10px */
+    }
+}
+
+
+
+
+.vertical-line {
+    border-left: 1px solid #ccc; /* 设置左边框 */
+    height: 100%; 
+    margin-right:60px; 
+    padding: 0; 
+}
+
+@media screen and (max-width: 1024px) {
+    .vertical-line  {
+      height:0%;
+      display:none;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1199px) {
+    .row.row-cols-2 {
+        width: 500px;
+        margin-left: -100px;
+    }
+    .column-r{
+        margin-left: -10px;
+    }
+}
+
+ 
+ 
+
+
+
+@media (min-width: 913px) and (max-width: 991px) {
+    .row.row-cols-2 {
+        width: 900px;
+        margin-left: -90px;
+    }
+    .row.row-cols-12 {
+        width: 100%;
+        margin-left: -10px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 912px) {
+    .row.row-cols-2 {
+        width: 900px;
+    }
+    .row.row-cols-12 {
+        width: 700px;
+        margin-left:0px;
+    }
+}
+
+
+
+@media screen and (max-width: 820px) {
+    .row {
+      width: 100%; /* Allow rows to expand to full width */
+      max-width: 700px; /* Set a maximum width to prevent overflow */
+      margin: 0 auto; /* Center rows horizontally */
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .row {
+      width: 100%;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+  
+    .row.row-cols-12 {
+      margin-left: 50; /* Remove default left margin for `row-cols-12` */
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width: 767px) {
+    .row.row-cols-2{
+      width: 100%;
+      max-width: 700px;
+      margin-left:-90px;
+    }
+  
+    .row.row-cols-12 {
+      margin-left: 0;
+    }
+  }
+  
+@media screen and (max-width: 540px) {
+    .row.row-cols-2 {
+        width: 360px;
+        margin-left:-10px;
+    }
+    .row.row-cols-12 {
+        max-width: 480px;
+        margin-left:0px;
+    }
+    .container{
+        margin-left:50px;
+        margin-left:-10px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .row.row-cols-2 {
+    width:360px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .row.row-cols-2 {
+    width:300px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .row.row-cols-2 {
+    width:300px;
+    }
+
+    .row.row-cols-12 {
+        max-width:300px;
+        margin-left:0px;
+        }
+        div.col{
+            max-width:100px;
+        }
+ 
+}
+
+@media screen and (max-width: 360px) {
+    .row.row-cols-2 {
+    width:300px;
+    margin-left:-10px;
+    }
+
+    .row.row-cols-12 {
+        max-width:300px;
+        margin-left:-10px;
+        }
+        div.col{
+            max-width:100%;
+        }
+ 
+}
+
+@media (max-width: 280px) {
+ 
+    .row.row-cols-12 {
+    
+        margin-left:0px;
+        }
+
+        .row-cols-2 > .col {
+            flex: 0 0 100%;
+            max-width: 300px;
+          }
+
+  
+  }
+
+
+
+  
+.label-money{
+    color:#404040;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    margin-top: 7px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .label-money {
+        font-size: 20px;
+        margin:0px auto;
+        margin-top:3px;
+    }
+}
+
+
+@media screen and (max-width: 912px) {
+    .label-money {
+        font-size: 20px;
+        margin:-95px;
+        margin-top:3px;
+    }
+}
+
+
+
+@media screen and (max-width: 853px) {
+    .label-money {
+        font-size: 20px;
+        margin-left:-15px;
+        margin-top:-10px;
+    }
+}
+
+
+
+@media screen and (max-width: 820px) {
+    .label-money {
+        font-size: 20px;
+        margin-left:-15px;
+        margin-top:-10px;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .label-money {
+        font-size: 16px;
+        margin:-25px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .label-money {
+        font-size: 16px;
+        margin:-15px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .label-money {
+        font-size: 16px;
+        margin:-25px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .label-money {
+        font-size: 16px;
+        margin:-30px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .label-money {
+        font-size: 16px;
+        margin:-15px;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .label-money {
+        font-size: 16px;
+        margin:-25px;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+    .label-money {
+        font-size: 16px;
+        margin-left:-35px;
+    }
+}
+
+
+@media screen and (max-width: 280px) {
+    .label-money {
+        font-size: 16px;
+        margin:-30px;
+    }
+}
+
+
+.label-rate{
+    color:#404040;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    margin-top: 8px;
+}
+
+@media screen and (max-width: 1024px) {
+    .label-rate {
+        font-size: 20px;
+        margin-left:-10px;
+        margin-top:3px; 
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .label-rate {
+        font-size: 20px;
+        margin-left:-45px;
+        margin-top:-10px; 
+    }
+}
+
+
+
+@media screen and (max-width: 820px) {
+    .label-rate {
+        font-size: 20px;
+        margin-left:-40px;
+        margin-top:-10px; 
+    }
+}
+
+
+@media screen and (max-width: 853px) {
+    .label-rate {
+        font-size: 20px;
+        margin-left:-10px;
+        margin-top:-10px; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .label-rate {
+        font-size: 16px;
+        margin-left:-30px;
+        margin-top:-10px; 
+    }
+}
+
+
+@media screen and (min-width: 576px)and  (max-width: 768px){
+    .label-rate {
+        font-size: 16px;
+        margin-left:60px;
+        margin-top:-10px; 
+    }
+}
+@media screen and (min-width: 540px)and  (max-width: 575px){
+    .label-rate {
+        font-size: 16px;
+        margin-left:-50px;
+        margin-top:-10px; 
+    }
+}
+@media screen and (max-width: 540px) {
+    .label-rate {
+        width:200px;
+        font-size: 16px;
+        margin-left:70px;
+        margin-top:-15px; 
+    }
+}
+
+
+@media screen and (max-width: 430px) {
+    .label-rate {
+        font-size: 16px;
+        margin-left:-15px;
+        margin-top:-10px; 
+    }
+}
+
+
+@media screen and (max-width: 414px) {
+    .label-rate {
+        font-size: 16px;
+        margin-left:-30px;
+        margin-top:-10px; 
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .label-rate {
+        font-size: 16px;
+        margin-left:5px;
+        margin-top:-10px; 
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .label-rate {
+        font-size: 16px;
+        margin-left:40px;
+        margin-top:-10px; 
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .label-rate {
+        font-size: 16px;
+        margin-left:-30px;
+        margin-top:-10px; 
+    }
+}
+
+
+@media screen and (max-width: 280px) {
+    .label-rate {
+        font-size: 16px;
+        margin-left:-30px;
+        margin-top:-10px; 
+    }
+}
+
+.container.text-left{
+    margin:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.label-loanterm{
+    color:#404040;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    margin-left:-10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .label-loanterm {
+        font-size: 20px;
+        margin-left:-20px;
+        margin-top:-10px; 
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .label-loanterm {
+        font-size: 20px;
+        margin-left:-110px;
+        margin-top:-10px; 
+    }
+}
+
+@media screen and (max-width: 853px) {
+    .label-loanterm {
+        font-size: 20px;
+        margin-left:-25px;
+        margin-top:-10px; 
+    }
+}
+
+
+@media screen and (max-width: 820px) {
+    .label-loanterm {
+        font-size: 20px;
+        margin-left:-55px;
+        margin-top:-10px; 
+    }
+}
+
+@media screen and (max-width: 853px) {
+    .label-loanterm {
+        font-size: 20px;
+        margin-left:-25px;
+        margin-top:-10px; 
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .label-loanterm {
+        font-size: 16px;
+        margin-left:-35px;
+        margin-top:-10px; 
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .label-loanterm {
+        font-size: 16px;
+        margin-left:-35px;
+        margin-top:-10px; 
+    }
+}
+
+
+
+@media screen and (max-width: 430px) {
+    .label-loanterm {
+        font-size: 16px;
+        margin-left:-45px;
+        margin-top:-10px; 
+    }
+}
+
+
+@media screen and (max-width: 414px) {
+    .label-loanterm {
+        font-size: 16px;
+        margin-left:-55px;
+        margin-top:-10px; 
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .label-loanterm {
+        font-size: 16px;
+        margin-left:-35px;
+        margin-top:-10px; 
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .label-loanterm {
+        font-size: 16px;
+        margin-left:-45px;
+        margin-top:-10px; 
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .label-loanterm {
+        font-size: 16px;
+        margin-left:-50px;
+        margin-top:-10px; 
+    }
+}
+
+#interestRate{
+    /* 添加您想要的樣式 */
+    width: 200px; /* 設定寬度 */
+    height: 40px; /* 設定高度 */
+    font-size: 16px; /* 設定字體大小 */
+    padding: 10px; /* 設定內邊距 */
+    border: 1px solid #A777F1; /* 添加邊框 */
+    border-radius: 10px; /* 添加圓角 */
+    margin-top: 10px; /* 調整上方外邊距 */
+    margin-left: 0px; /* 調整上方外邊距 */
+    margin-bottom: 10px; /* 調整下方外邊距 */
+    /* 添加其他所需的樣式 */
+}
+
+@media screen and (max-width: 1024px) {
+    #interestRate{
+        width: 360px;
+        height:52px;
+        margin-top:3px;
+        margin-left:-10px;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    #interestRate{
+        width: 390px;
+        height:52px;
+        margin-top:10px;
+        margin-left:-45px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 820px) {
+    #interestRate{
+        width: 350px;
+        height:50px;
+        margin-top:10px;
+        margin-left:-45px;
+    }
+}
+
+
+@media screen and (max-width: 853px) {
+    #interestRate{
+        width: 300px;
+        height:50px;
+        margin-top:3px;
+        margin-left:-10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #interestRate{
+        width: 315px;
+        margin-top:10px;
+        margin-left:-30px;
+    }
+}
+
+@media screen and (min-width: 576px)and  (max-width: 767px){
+    #interestRate{
+        width: 315px;
+        margin-top:10px;
+        margin-left:60px;
+    }
+}
+
+@media screen and (min-width: 540px)and  (max-width: 575px){
+    #interestRate {
+        width: 315px;
+        margin-top:10px;
+        margin-left:-50px;
+    }
+}
+@media screen and (max-width: 540px) {
+    #interestRate{
+        width: 230px;
+        margin-top:10px;
+        margin-left:60px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #interestRate{
+        width: 170px;
+        margin-top:10px;
+        margin-left:-10px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    #interestRate{
+        width: 170px;
+        margin-top:10px;
+        margin-left:-20px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    #interestRate{
+        width: 150px;
+        margin-top:10px;
+        margin-left:3px;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    #interestRate{
+        width: 150px;
+        margin-top:10px;
+        margin-left:40px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #interestRate{
+        width: 145px;
+        margin-top:10px;
+        margin-left:-30px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    #interestRate{
+        width: 230px;
+        margin-top:10px;
+        margin-left:-30px;
+    }
+}
+
+
+#loanAmount{
+     /* 添加您想要的樣式 */
+     width: 200px; /* 設定寬度 */
+     height: 40px; /* 設定高度 */
+     font-size: 16px; /* 設定字體大小 */
+     padding: 10px; /* 設定內邊距 */
+     border: 1px solid #A777F1; /* 添加邊框 */
+     border-radius: 10px; /* 添加圓角 */
+     margin-top: 10px; /* 調整上方外邊距 */
+     margin-left: 0px; /* 調整上方外邊距 */
+     margin-bottom: 10px; /* 調整下方外邊距 */
+     /* 添加其他所需的樣式 */
+}
+
+@media screen and (max-width: 1024px) {
+    #loanAmount{
+        width: 360px;
+        margin-top:4px;
+        margin-left:-10px;
+        height:50px;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    #loanAmount{
+        width: 380px;
+        margin-top:5px;
+        margin-left:-95px;
+        height:50px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 820px) {
+    #loanAmount{
+        width: 360px;
+        margin-top:5px;
+        margin-left:-50px;
+        height:50px;
+    }
+}
+
+@media screen and (max-width: 853px) {
+    #loanAmount{
+        width: 310px;
+        margin-top:5px;
+        margin-left:-15px;
+        height:50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #loanAmount{
+        width: 315px;
+        margin-top:10px;
+        margin-left:-25px;
+    }
+}
+
+@media screesn and (min-width: 540px)and  (max-width: 768px){
+    #loanAmount{
+        width: 315px;
+        margin-top:10px;
+        margin-right:-100px;
+    }
+    }
+
+@media screen and (max-width: 540px) {
+    #loanAmount{
+        width: 230px;
+        margin-top:10px;
+        margin-left:-15px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #loanAmount{
+        width: 170px;
+        margin-top:10px;
+        margin-left:-25px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    #loanAmount{
+        width: 170px;
+        margin-top:10px;
+        margin-left:-35px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    #loanAmount{
+        width: 150px;
+        margin-top:10px;
+        margin-left:-15px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #loanAmount{
+        width: 150px;
+        margin-top:10px;
+        margin-left:-25px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #loanAmount{
+        width: 145px;
+        margin-top:10px;
+        margin-left:-35px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    #loanAmount{
+        width: 230px;
+        margin-top:10px;
+        margin-left:-30px;
+    }
+}
+
+
+
+#loanTerm {
+    /* 添加您想要的樣式 */
+    width: 480px; /* 設定寬度 */
+    height: 40px; /* 設定高度 */
+    font-size: 16px; /* 設定字體大小 */
+    padding: 10px; /* 設定內邊距 */
+    border: 1px solid #A777F1; /* 添加邊框 */
+    border-radius: 10px; /* 添加圓角 */
+    margin-top: 10px; /* 調整上方外邊距 */
+    margin-left: 0px; /* 調整上方外邊距 */
+    margin-bottom: 10px; /* 調整下方外邊距 */
+    /* 添加其他所需的樣式 */
+}
+
+@media screen and (max-width: 1024px) {
+    #loanTerm {
+        width: 780px;
+        font-size: 14px;
+        height:50px;
+        margin-left:-10px;
+        margin-top:10px; 
+    }
+}
+
+@media screen and (max-width: 912px) {
+    #loanTerm {
+        max-width: 890px;
+        width:810px;
+        font-size: 14px;
+        height:50px;
+        margin-left:-105px;
+        margin-top:10px; 
+    }
+}
+
+
+
+@media screen and (max-width: 820px) {
+    #loanTerm {
+        width: 600px;
+        font-size: 14px;
+        height:50px;
+        margin-left:-50px;
+        margin-top:10px; 
+    }
+}
+
+@media screen and (max-width: 853px) {
+    #loanTerm {
+        width: 660px;
+        font-size: 14px;
+        height:50px;
+        margin-left:-15px;
+        margin-top:10px; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #loanTerm {
+        width: 660px;
+        font-size: 14px;
+        margin-left:-20px;
+        margin-top:10px; 
+    }
+}
+
+@media screen and (min-width: 540px)and  (max-width: 767px){
+    #loanTerm {
+        width: 660px;
+        font-size: 14px;
+        margin-left:-40px;
+        margin-top:10px; 
+    }
+}
+
+@media screen and (max-width: 540px) {
+    #loanTerm {
+       width: 480px;
+        font-size: 14px;
+        margin-left:-25px;
+        margin-top:10px; 
+    }
+    .input#loanTerm{
+        width: 440px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #loanTerm {
+        max-width: 370px;
+        font-size: 14px;
+        margin-left:-35px;
+        margin-top:10px; 
+    }
+ 
+}
+
+
+@media screen and (max-width: 414px) {
+    #loanTerm {
+        max-width: 370px;
+        font-size: 14px;
+        margin-left:-45px;
+        margin-top:10px; 
+    }
+}
+
+@media screen and (max-width: 390px) {
+    #loanTerm {
+        max-width: 320px;
+        font-size: 14px;
+        margin-left:-25px;
+        margin-top:10px; 
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    #loanTerm {
+        max-width: 320px;
+        font-size: 14px;
+        margin-left:-35px;
+        margin-top:10px; 
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+    #loanTerm {
+        max-width: 310px;
+        font-size: 14px;
+        margin-left:-35px;
+        margin-top:10px; 
+    }
+
+}
+
+@media screen and (max-width: 280px) {
+    #loanTerm {
+        width: 230px;
+        font-size: 14px;
+        margin-left:-40px;
+        margin-top:10px; 
+    }
+  
+}
+
+
+
+
+
+
+
+.button-cal {
+    background: linear-gradient(to right, #EA0061, #C90E85); /* 漸層背景顏色 */
+    border-radius: 35px;
+    width: 213px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-weight: bolder;
+    height: 59px;
+    margin-right:-10px ;
+    margin-top:15px;
+    font-size: 16px;
+    outline: 0 !important;
+    border:none;
+    transition: background-color 0.5s ease, box-shadow 0.5s ease, opacity 0.5s ease; /* 合并过渡效果 */
+}
+
+.button-cal:hover {
+    background: linear-gradient(to right, #EA0061 20%,#AF20A8 60%, #6D45F9 100%);
+    box-shadow: 0px 6px 10px rgba(0,0,0,0.30);
+}
+
+@media screen and (max-width: 1024px) {
+    .button-cal {
+        width: 370px;
+        font-size: 14px;
+        margin-right:30px;
+        margin-top:40px; 
+    }
+}
+
+
+@media screen and (max-width: 912px) {
+    .button-cal {
+        width: 400px;
+        font-size: 14px;
+        margin-right:-20px;
+        margin-top:40px; 
+    }
+}
+
+
+
+
+@media screen and (max-width: 820px) {
+    .button-cal {
+        width: 350px;
+        font-size: 14px;
+        margin-right:45px;
+        margin-top:40px; 
+    }
+}
+
+@media screen and (max-width: 853px) {
+    .button-cal {
+        width: 300px;
+        font-size: 14px;
+        margin-right:45px;
+        margin-top:40px; 
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .button-cal {
+        width: 310px;
+        font-size: 14px;
+        margin-right:30px;
+        margin-top:40px; 
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 767px) {
+    .button-cal {
+        width: 280px;
+        font-size: 14px;
+        margin-right: 0px;
+        margin-top: 40px; 
+    }
+}
+
+@media screen and (min-width: 541px) and (max-width: 576px) {
+    .button-cal {
+        width: 280px;
+        font-size: 14px;
+        margin-right: 50px;
+        margin-top: 40px; 
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .button-cal {
+        width: 210px;
+        font-size: 14px;
+        margin-right:-10px;
+        margin-top:10px; 
+    }
+}
+
+
+@media screen and (max-width: 430px) {
+    .button-cal {
+        width: 170px;
+        font-size: 14px;
+        margin-right:10px;
+        margin-top:10px; 
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .button-cal {
+        width: 170px;
+        font-size: 14px;
+        margin-left:-25px;
+        margin-top:10px; 
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .button-cal {
+        width: 170px;
+        font-size: 14px;
+        margin-right:10px;
+        margin-top:10px; 
+    }
+}
+
+
+@media screen and (max-width: 390px) {
+    .button-cal {
+        width: 150px;
+        font-size: 14px;
+        margin-right:-30px;
+        margin-top:10px; 
+    }
+}
+
+
+
+@media screen and (max-width: 375px) {
+    .button-cal {
+        width: 150px;
+        font-size: 14px;
+        margin-right:0px;
+        margin-top:10px; 
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .button-cal {
+        width: 230px;
+        font-size: 14px;
+        margin-left:-260px;
+        margin-top:10px; 
+    }
+
+}
+
+
+
+.button-del {
+    background: white; /* 漸層背景顏色 */
+    border-radius: 35px;
+    width: 213px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-weight: bolder;
+    height: 59px;
+    margin-left: -10px;
+    font-size: 16px;
+    margin-top: 15px;
+    outline: 0 !important;
+    border: none;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.25);
+    transition: color 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease, opacity 0.5s ease; /* 合并过渡效果 */
+    font-size: 16px;
+    background: linear-gradient(to right, #EA0061 30%, #6D45F9 60%, #6D45F9 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+
+  
+}
+
+
+.button-del:hover {
+    background: #2B2947; /* 渐变背景 */
+    box-shadow: 0px 6px 10px rgba(0,0,0,0.30);
+    color: white; /* 将文字颜色设为白色 */
+    -webkit-text-fill-color: initial;
+}
+
+@media screen and (max-width: 1024px) {
+    .button-del{
+        width: 370px;
+        font-size: 14px;
+        margin-left:-20px;
+        margin-top:40px; 
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .button-del{
+        width: 400px;
+        font-size: 14px;
+        margin-left:-120px;
+        margin-top:40px; 
+    }
+}
+
+
+
+@media screen and (max-width: 820px) {
+    .button-del{
+        width: 350px;
+        font-size: 14px;
+        margin-left:-55px;
+        margin-top:40px; 
+    }
+}
+
+
+@media screen and (max-width: 853px) {
+    .button-del{
+        width: 330px;
+        font-size: 14px;
+        margin-left:-35px;
+        margin-top:40px; 
+    }
+}
+@media screen and (max-width: 768px) {
+    .button-del {
+        width: 310px;
+        font-size: 14px;
+        margin-left:-45px;
+        margin-top:40px; 
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .button-del {
+        width: 210px;
+        font-size: 14px;
+        margin-left:-35px;
+        margin-top:10px; 
+    }
+}
+
+
+@media screen and (max-width: 430px) {
+    .button-del {
+        width: 170px;
+        font-size: 14px;
+        margin-left:-45px;
+        margin-top:10px; 
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .button-del {
+        width: 170px;
+        font-size: 14px;
+        margin-left:-50px;
+        margin-top:10px; 
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .button-del {
+        width: 150px;
+        font-size: 14px;
+        margin-left:-35px;
+        margin-top:10px; 
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .button-del {
+        width: 150px;
+        font-size: 14px;
+        margin-left:-45px;
+        margin-top:10px; 
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .button-del {
+        width: 230px;
+        font-size: 14px;
+        margin-left:30px;
+        margin-top:90px; 
+    }
+}
+
+
+.button-re {
+    background: white;/* 漸層背景顏色 */
+    border-radius: 35px;
+    width: 213px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-weight: bolder;
+    height: 59px;
+    margin-left:-10px ;
+    font-size: 16px;
+    margin-top:0px;
+    outline: 0 !important;
+    border:none;
+    box-shadow:0px 2px 4px rgba(0,0,0,0.25);
+    transition: color 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease, opacity 0.5s ease; /* 合并过渡效果 */
+    font-size: 16px;
+    background: linear-gradient(to right, #EA0061 30%, #6D45F9 60%, #6D45F9 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.button-re:hover{
+    background: #2B2947; /* 渐变背景 */
+    box-shadow: 0px 6px 10px rgba(0,0,0,0.30);
+    color: white; /* 将文字颜色设为白色 */
+    -webkit-text-fill-color: initial;
+}
+
+@media screen and (max-width: 1024px) {
+    .button-re {
+ width:750px;
+margin-top:60px;
+margin-left:-155px;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .button-re {
+ width:700px;
+margin-top:40px;
+margin-left:-130px;
+    }
+}
+
+
+
+@media screen and (max-width: 820px) {
+    .button-re {
+ width:700px;
+margin-top:40px;
+margin-left:-100px;
+    }
+}
+
+@media screen and (max-width: 853px) {
+    .button-re {
+ width:600px;
+margin-top:40px;
+margin-left:-80px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .button-re {
+ width:660px;
+margin-top:30px;
+margin-left:30px;
+    }
+}
+
+@media screen and (min-width: 540px)and  (max-width: 767px){
+    .button-re {
+ width:600px;
+ margin-left:100px;
+ margin-top:30px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .button-re {
+ width:450px;
+ margin-left:70px;
+ margin-top:30px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .button-re {
+ width:320px;
+ margin-left:180px;
+ margin:10px;
+    }
+}
+
+
+@media screen and (max-width: 414px) {
+    .button-re {
+ width:320px;
+ margin-left:180px;
+ margin:10px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .button-re {
+ width:320px;
+ margin-left:180px;
+ margin:10px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .button-re {
+ width:320px;
+ margin-left:180px;
+ margin:10px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .button-re {
+        width:300px;
+        margin-left:180px;
+        margin:10px;
+    }
+}
+
+
+@media screen and (max-width: 280px) {
+    .button-re {
+ width:230px;
+
+
+    }
+}
+
+
+.container.text-center {
+    display: grid; /* 使用 Grid 佈局 */
+    justify-content: center; /* 將元素水平居中對齊 */
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: none; 
+}
+
+
+
+
+
+.title01{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-weight: 800;
+    color:black;
+}
+
+@media screen and (max-width: 1024px) {
+   
+    .title01 {
+    width:500px;
+     font-size: 60px;
+     font-weight: 600;
+     margin-left:-400px;
+     margin-top:-30px;
+        }
+    }
+
+    @media screen and (max-width: 853px) {
+   
+        .title01 {
+        width:500px;
+         font-size: 48px;
+         font-weight: 600;
+         margin-left:-300px;
+         margin-top:30px;
+            }
+        }
+@media screen and (max-width: 820px) {
+   
+    .title01 {
+    width:500px;
+     font-size: 48px;
+     font-weight: 600;
+     margin-left:-300px;
+     margin-top:30px;
+        }
+    }
+
+@media screen and (max-width: 768px) {
+   
+.title01 {
+width:500px;
+ font-size: 36px;
+ font-weight: 600;
+ margin-left:0px;
+ margin-top:0px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .title01 {
+        margin-top:0px;
+  font-size:24px;
+  margin-left:-100px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .title01 {
+        margin-top:0px;
+  font-size:24px;
+  margin-left:-150px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .title01 {
+  font-size:24px;
+  margin-left:-150px;
+    }
+}
+
+
+@media screen and (max-width: 390px) {
+    .title01 {
+  font-size:24px;
+  margin-left:-150px;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .title01 {
+  font-size:24px;
+  margin-left:-150px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .title01 {
+  font-size:32px;
+  margin-left:-125px;
+  margin-top:190px;
+    }
+}
+
+
+.title02{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-weight: 800;
+    color:black;
+    font-size:22px;
+}
+
+@media screen and (max-width: 1024px) {
+    .title02  {
+  font-size:36px;
+  margin-left:-400px;
+  margin-top:15px;
+    }
+}
+
+@media screen and (max-width: 853px) {
+    .title02  {
+  font-size:36px;
+  margin-left:-300px;
+  margin-top:5px;
+    }
+}
+@media screen and (max-width: 820px) {
+    .title02  {
+  font-size:36px;
+  margin-left:-300px;
+  margin-top:5px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title02  {
+  font-size:24px;
+  margin-left:0px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .title02  {
+  font-size:18px;
+  margin-left:-100px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .title02  {
+  font-size:18px;
+  margin-left:0px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .title02  {
+  font-size:18px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .title02  {
+  font-size:19px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .title02  {
+  font-size:22px;
+  margin-left:50px;
+    }
+}
+
+.title03{
+    color: #555555;
+    margin-top:15px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .title03  {
+  font-size:24px;
+  margin-top:20px;
+  margin-left:-400px;
+    }
+}
+
+@media screen and (max-width: 853px) {
+    .title03  {
+  font-size:24px;
+  margin-top:0px;
+  margin-left:-300px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .title03  {
+  font-size:24px;
+  margin-top:0px;
+  margin-left:-300px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .title03  {
+  font-size:18px;
+  margin-top:10px;
+  margin-left:0px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .title03  {
+  font-size:15px;
+  margin-top:3px;
+  margin-left:-100px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .title03  {
+  font-size:15px;
+  margin-top:3px;
+  margin-left:0px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .title03  {
+  font-size:15px;
+  margin-top:3px;
+  margin-left:0px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .title03  {
+  font-size:15px;
+  margin-top:3px;
+  margin-left:50px;
+ 
+    }
+}
+.highlight {
+    color: #CB3F40;
+}
+.horizontal-div {
+    flex: 1;
+    border: 1px solid #ccc;
+    margin: 5px; /* 保持原始的外边距 */
+    /* 添加左右外边距以减小两个元素之间的间距 */
+   margin-left:15px;
+    margin-right: 5px;
+    height:200px;
+    margin-top:20px;
+    border:none;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .horizontal-div  {
+        width:500px;
+        height:100%;
+        margin-left:-85px;
+        margin-top:150px;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .horizontal-div  {
+        width:500px;
+        height:100%;
+        margin-left:-95px;
+        margin-top:160px;
+    }
+}
+
+
+
+@media screen and (max-width: 820px) {
+    .horizontal-div  {
+        width:500px;
+        height:100%;
+        margin-left:0px;
+        margin-top:100px;
+    }
+}
+
+@media screen and (max-width: 853px) {
+    .horizontal-div  {
+        width:500px;
+        height:100%;
+        margin-left:-85px;
+        margin-top:100px;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .horizontal-div  {
+        width:500px;
+        height:100%;
+        margin-left:-220px;
+        margin-top:100px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    /* 此處的 CSS 樣式將僅適用於螢幕尺寸在 576 到 768 之間的裝置 */
+    .horizontal-div  {
+        width:500px;
+        height:100%;
+        margin-left:-160px;
+        margin-top:100px;
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+    .horizontal-div  {
+        width:500px;
+        height:50%;
+        margin-left:0px;
+        margin-top:60px;
+    }
+}
+
+
+@media screen and (max-width: 430px) {
+    .horizontal-div  {
+        width:200px;
+        height:50%;
+        margin-left:150px;
+        margin-top:40px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .horizontal-div  {
+        width:200px;
+        height:50%;
+        margin-left:150px;
+        margin-top:20px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .horizontal-div  {
+        width:200px;
+        height:50%;
+        margin-left:205px;
+        margin-top:35px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .horizontal-div  {
+        width:200px;
+        height:50%;
+        margin-left:190px;
+        margin-top:20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .horizontal-div  {
+        width:200px;
+        height:50%;
+        margin-left:190px;
+        margin-top:20px;
+    }
+}
+
+@media screen and(max-width:280px){
+    .horizontal-div{
+        margin-top:-300px;
+    }
+}
+
+
+.horizontal-div2 {
+    flex: 1;
+    border: 1px solid #ccc;
+    margin: 5px; /* 保持原始的外边距 */
+    /* 添加左右外边距以减小两个元素之间的间距 */
+    margin-top:-55px;
+    margin-left: 5px;
+    height:200px;
+    border:none;
+}
+
+@media screen and (max-width: 1024px) {
+    .horizontal-div2 {
+    max-width:50%;
+     height:-50px
+    }
+}
+
+.loan-img {
+    max-width: 280px;
+    height: 280px;
+}
+
+@media screen and (max-width: 1024px) {
+    .loan-img {
+    margin-left:-230px;
+    margin-top:95px;
+    width:750px;
+    height:300px;
+    }
+}
+
+
+
+@media screen and (max-width: 820px) {
+    .loan-img {
+    margin-left:-200px;
+    margin-top:80px;
+    width:290px;
+    height:290px;
+    }
+}
+
+@media screen and (max-width: 853px) {
+    .loan-img {
+    margin-left:-250px;
+    margin-top:80px;
+    width:290px;
+    height:290px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .loan-img {
+    margin-left:-120px;
+    margin-top:25px;
+    width:280px;
+    height:280px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .loan-img {
+    margin-left:-205px;
+    margin-top:12px;
+    width:220px;
+    height:220px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .loan-img {
+    margin-left:-35px;
+    margin-top:20px;
+    width:180px;
+    height:180px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .loan-img {
+    margin-left:-35px;
+    margin-top:12px;
+    width:180px;
+    height:180px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .loan-img {
+    margin-left:-45px;
+    margin-top:20px;
+    width:180px;
+    height:180px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .loan-img {
+    margin-left:-35px;
+    margin-top:10px;
+    width:180px;
+    height:180px;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+    .loan-img {
+        margin-left:-50px;
+        margin-top:10px;
+        width:180px;
+        height:180px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .loan-img {
+margin-top:200px;
+display:none;
+    }
+}
+
+table {
+    width: 90%;
+    border: 1px;
+    margin: 0 auto; /* 将左右外边距设置为自动，实现水平居中 */
+margin-top:8px;
+
+
+}
+
+@media screen and (max-width: 1024px) {
+    table {
+    margin-left:3px;
+    margin-top:-3px;
+    width:750px;
+
+    }
+}
+
+
+@media screen and (max-width: 912px) {
+    table {
+    margin-left:-3px;
+    margin-top:-3px;
+    width:750px;
+
+    }
+}
+
+@media screen and (max-width: 853px) {
+    table {
+    margin-left:-10px;
+    margin-top:-3px;
+    width:650px;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    table {
+    margin-left:-20px;
+    margin-top:-3px;
+    width:650px;
+
+    }
+}
+
+@media screen and (max-width: 540px) {
+    table {
+    margin-left:-3px;
+    margin-top:-3px;
+    width:450px;
+
+    }
+}
+
+@media screen and (max-width: 430px) {
+    table {
+    margin-left:-18px;
+    margin-top:-3px;
+    width:355px;
+
+    }
+}
+
+
+@media screen and (max-width: 414px) {
+    table {
+    margin-left:-15px;
+    margin-top:-5px;
+    width:340px;
+
+    }
+}
+
+@media screen and (max-width: 390px) {
+    table {
+    margin-left:-15px;
+    margin-top:-5px;
+    width:315px;
+
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    table {
+    margin-left:-15px;
+    margin-top:-5px;
+    width:300px;
+
+    }
+}
+
+@media screen and (max-width: 360px) {
+    table {
+    margin-left:0px;
+    margin-top:-5px;
+    width:280px;
+
+    }
+}
+
+@media screen and (max-width: 280px) {
+    table {
+    margin-left:-20px;
+    margin-top:-5px;
+    width:230px;
+
+    }
+}
+
+    
+    th{
+        background-color:#BCAAD7;
+        border: 1.5px solid #BCAAD7;
+        color:white;
+        text-align: center;
+        width: 20%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+        font-weight: bolder;
+
+    }
+
+
+
+    th:first-child {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+    @media screen and (max-width: 414px) {
+        th:first-child {
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+    
+        }
+    }
+    
+    @media screen and (max-width: 600px) {
+        .special-border th:nth-child(1),
+        .special-border td:nth-child(1) {
+          width:5%; 
+        }
+
+        .special-border th:nth-child(2),
+        .special-border td:nth-child(2) {
+          width:25%; 
+        }
+
+        .special-border th:nth-child(3),
+        .special-border td:nth-child(3) {
+          width: 25%; 
+        }
+        .special-border th:nth-child(4),
+        .special-border td:nth-child(4) {
+          width: 20%; 
+        }
+        .special-border th:nth-child(5),
+        .special-border td:nth-child(5) {
+          width: 30%; 
+        }
+      }
+
+
+      @media screen and (max-width: 280px) {
+        .special-border th:nth-child(1),
+        .special-border td:nth-child(1) {
+          width:5%; 
+        }
+
+        .special-border th:nth-child(2),
+        .special-border td:nth-child(2) {
+          width:20%; 
+        }
+
+        .special-border th:nth-child(3),
+        .special-border td:nth-child(3) {
+          width: 20%; 
+        }
+        .special-border th:nth-child(4),
+        .special-border td:nth-child(4) {
+          width: 25%; 
+        }
+        .special-border th:nth-child(5),
+        .special-border td:nth-child(5) {
+          width: 20%; 
+        }
+      }
+
+    th:last-child {
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    tr.special-border th:nth-child(n+1):nth-child(-n+4) {
+        border-right: 1.5px solid #E8D8FF;
+     
+    }
+    td{
+        border: 1px solid #BCAAD7; 
+    }
+    tr:nth-child(odd) td {
+        background-color: white;
+    }
+
+
+
+@media screen and (max-width: 375px) {
+    th:last-child {
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+}
+
+th{
+background-color:#BCAAD7;
+border: 1.5px solid #BCAAD7;
+color:white;
+text-align: center;
+width: 20%;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+font-weight: bolder;
+}
+
+
+
+th:first-child {
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+
+@media screen and (max-width: 375px) {
+    th:first-child {
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+}
+th:last-child {
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+
+@media screen and (max-width: 375px) {
+    th:last-child {
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    th:last-child {
+  font-size: 16px;
+  
+    }
+}
+
+tr.special-border th:nth-child(n+1):nth-child(-n+4) {
+border-right: 1.5px solid #E8D8FF;
+
+}
+td{
+border: 1px solid #b39ad8; 
+}
+tr:nth-child(even) td {
+background-color: #EEF1FF;
+}
+.container-table {
+margin-top: 0px;
+border-radius: 20px;
+border: 1px solid #A777F1;
+width: 93%;
+height: 150px;
+max-height: 400px;
+overflow-y: auto; 
+position: relative; /* 设置相对定位 */
+padding-left: 15px; /* 给箭头留出空间 */
+box-shadow:0px 10px 10px rgba(0,0,0,0.20);
+overflow-x: hidden;
+}
+
+@media screen and (max-width: 375px) {
+    .container-table {
+        margin-top:0px; 
+    }
+}
+
+@media screen and (max-width:280px){
+    .container-table{
+        margin-top:0px;
+    }
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 30px solid #A777F1; /* 白色三角形 */
+    position: relative;
+    margin-top:25px;    
+    margin-left:950px;
+}
+
+@media screen and (max-width: 1024px) {
+    .triangle {
+        margin-top:95px; 
+        margin-left:700px;
+    }
+}
+
+
+@media screen and (max-width: 912px) {
+    .triangle {
+        margin-top:85px; 
+        margin-left:750px;
+    }
+}
+
+
+@media screen and (max-width: 853px) {
+    .triangle {
+        margin-top:85px; 
+        margin-left:600px;
+    }
+}
+
+
+@media screen and (max-width: 820px) {
+    .triangle {
+        margin-top:85px; 
+        margin-left:600px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .triangle {
+        margin-top:45px; 
+        margin-left:600px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .triangle {
+        margin-top:20px; 
+        margin-left:400px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .triangle {
+        margin-top:20px; 
+        margin-left:290px;
+    }
+}
+
+
+@media screen and (max-width: 414px) {
+    .triangle {
+        margin-top:15px; 
+        margin-left:290px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .triangle {
+        margin-top:15px; 
+        margin-left:280px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .triangle {
+        margin-top:10px; 
+        margin-left:250px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .triangle {
+        margin-top:200px; 
+        margin-left:180px;
+    }
+}
+
+.triangle::before {
+    content: "";
+    position: absolute;
+    top: 3px; /* 向下偏移 3px */
+    left: -20px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 30px solid #FCFDFF; /* 紫色三角形 */
+    z-index: 1;
+}
+
+
+@media screen and (max-width: 280px) {
+.triangle::before {
+    content: "";
+    position: absolute;
+    top: 3px; /* 向下偏移 3px */
+    left: -20px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 30px solid #FCFDFF; /* 紫色三角形 */
+    z-index: 1;
+
+    }
+}
