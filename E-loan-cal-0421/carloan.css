@@ -325,7 +325,7 @@
     }
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1279px) {
+@media screen and (min-width: 1025px) and (max-width: 1199px) {
     .row.row-cols-2 {
         width: 500px;
         margin-left: -100px;
