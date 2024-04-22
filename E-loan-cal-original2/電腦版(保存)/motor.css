@@ -1,0 +1,399 @@
+.contain-bg{
+    width:100%;
+    height:1200px;
+    background-color:#EEF1FF;
+}
+
+@media screen and (max-width: 767px) {
+    .contain-bg {
+        height: 800px;
+    }
+}
+
+.contain-01 {
+    width: 1200px;
+    height: 592px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255,0.7); /* 白色 + 70% 透明度 */
+    transition: opacity 0.5s ease;
+    position:absolute;
+    top:10%;
+    left:2.5%;
+    opacity: 0.7;
+}
+
+.contain-01:hover {
+    opacity: 1; /*鼠標指向時的透明度*/
+}
+
+.container {
+    display: flex;
+    height: 287px;
+    margin-top: 45px;
+    border: none; /* 移除容器的边框 */
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+}
+
+/* 保留两列之间的边框 */
+.column + .column {
+    border-left: 1px solid #ccc;
+}
+
+
+
+.column-r {
+    flex: 1;
+    padding: 10px;
+    margin-left:30px;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .column-r {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
+    .column-r .container {
+        margin-top: 500px; /* 将容器向下移动500px */
+        margin-left: -550px; /* 将容器与左边的距离设置为10px */
+    }
+}
+
+
+.vertical-line {
+    border-left: 1px solid #ccc; /* 设置左边框 */
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
+}
+
+.label-money{
+    color:#404040;
+    font-weight: bold;
+    font-weight: 14px;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    margin-top: 8px;
+}
+
+.label-rate{
+    color:#404040;
+    font-weight: bold;
+    font-weight: 14px;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    margin-top: 5px;
+}
+
+.container.text-left{
+    margin:10px;
+}
+.label-loanterm{
+    color:#404040;
+    font-weight: bold;
+    font-weight: 14px;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    margin-left:-10px;
+}
+
+#interestRate{
+    /* 添加您想要的樣式 */
+    width: 200px; /* 設定寬度 */
+    height: 40px; /* 設定高度 */
+    font-size: 16px; /* 設定字體大小 */
+    padding: 10px; /* 設定內邊距 */
+    border: 1px solid #A777F1; /* 添加邊框 */
+    border-radius: 10px; /* 添加圓角 */
+    margin-top: 10px; /* 調整上方外邊距 */
+    margin-left: 0px; /* 調整上方外邊距 */
+    margin-bottom: 10px; /* 調整下方外邊距 */
+    /* 添加其他所需的樣式 */
+}
+#loanAmount{
+     /* 添加您想要的樣式 */
+     width: 200px; /* 設定寬度 */
+     height: 40px; /* 設定高度 */
+     font-size: 16px; /* 設定字體大小 */
+     padding: 10px; /* 設定內邊距 */
+     border: 1px solid #A777F1; /* 添加邊框 */
+     border-radius: 10px; /* 添加圓角 */
+     margin-top: 10px; /* 調整上方外邊距 */
+     margin-left: 0px; /* 調整上方外邊距 */
+     margin-bottom: 10px; /* 調整下方外邊距 */
+     /* 添加其他所需的樣式 */
+}
+#loanTerm {
+    /* 添加您想要的樣式 */
+    width: 480px; /* 設定寬度 */
+    height: 40px; /* 設定高度 */
+    font-size: 16px; /* 設定字體大小 */
+    padding: 10px; /* 設定內邊距 */
+    border: 1px solid #A777F1; /* 添加邊框 */
+    border-radius: 10px; /* 添加圓角 */
+    margin-top: 10px; /* 調整上方外邊距 */
+    margin-left: 0px; /* 調整上方外邊距 */
+    margin-bottom: 10px; /* 調整下方外邊距 */
+    /* 添加其他所需的樣式 */
+}
+.button-cal {
+    background: linear-gradient(to right, #EA0061, #C90E85); /* 漸層背景顏色 */
+    border-radius: 35px;
+    width: 213px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-weight: bolder;
+    height: 59px;
+    margin-right:-10px ;
+    margin-top:15px;
+    font-size: 16px;
+    outline: 0 !important;
+    border:none;
+    transition: background-color 0.5s ease, box-shadow 0.5s ease, opacity 0.5s ease; /* 合并过渡效果 */
+}
+
+.button-cal:hover {
+    background: linear-gradient(to right, #EA0061 20%,#AF20A8 60%, #6D45F9 100%);
+    box-shadow: 0px 6px 10px rgba(0,0,0,0.30);
+}
+.button-del {
+    background: white; /* 漸層背景顏色 */
+    border-radius: 35px;
+    width: 213px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-weight: bolder;
+    height: 59px;
+    margin-left: -10px;
+    font-size: 16px;
+    margin-top: 15px;
+    outline: 0 !important;
+    border: none;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.25);
+    transition: color 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease, opacity 0.5s ease; /* 合并过渡效果 */
+    font-size: 16px;
+    background: linear-gradient(to right, #EA0061 30%, #6D45F9 60%, #6D45F9 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+
+  
+}
+
+
+.button-del:hover {
+    background: #2B2947; /* 渐变背景 */
+    box-shadow: 0px 6px 10px rgba(0,0,0,0.30);
+    color: white; /* 将文字颜色设为白色 */
+    -webkit-text-fill-color: initial;
+}
+
+
+.button-re {
+    background: white;/* 漸層背景顏色 */
+    border-radius: 35px;
+    width: 213px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-weight: bolder;
+    height: 59px;
+    margin-left:-10px ;
+    font-size: 16px;
+    margin-top:0px;
+    outline: 0 !important;
+    border:none;
+    box-shadow:0px 2px 4px rgba(0,0,0,0.25);
+    transition: color 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease, opacity 0.5s ease; /* 合并过渡效果 */
+    font-size: 16px;
+    background: linear-gradient(to right, #EA0061 30%, #6D45F9 60%, #6D45F9 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.button-re:hover{
+    background: #2B2947; /* 渐变背景 */
+    box-shadow: 0px 6px 10px rgba(0,0,0,0.30);
+    color: white; /* 将文字颜色设为白色 */
+    -webkit-text-fill-color: initial;
+}
+.container.text-center {
+    display: grid; /* 使用 Grid 佈局 */
+    justify-content: center; /* 將元素水平居中對齊 */
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: none; 
+}
+
+.title01{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-weight: 800;
+    color:black;
+}
+
+.title02{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-weight: 800;
+    color:black;
+    font-size:22px;
+}
+
+.title03{
+    color: #555555;
+    margin-top:15px;
+}
+
+.highlight {
+    color: #CB3F40;
+}
+.horizontal-div {
+    flex: 1;
+    border: 1px solid #ccc;
+    margin: 5px; /* 保持原始的外边距 */
+    /* 添加左右外边距以减小两个元素之间的间距 */
+   margin-left:15px;
+    margin-right: 5px;
+    height:200px;
+    border:none;
+}
+.horizontal-div2 {
+    flex: 1;
+    border: 1px solid #ccc;
+    margin: 5px; /* 保持原始的外边距 */
+    /* 添加左右外边距以减小两个元素之间的间距 */
+    margin-top:-55px;
+    margin-left: 5px;
+    height:200px;
+    border:none;
+}
+
+table {
+    width: 90%;
+    border: 1px;
+    margin: 0 auto; /* 将左右外边距设置为自动，实现水平居中 */
+margin-top:8px;
+
+
+}
+    
+    th{
+        background-color:#BCAAD7;
+        border: 1.5px solid #BCAAD7;
+        color:white;
+        text-align: center;
+        width: 20%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+        font-weight: bolder;
+    }
+
+   
+
+    th:first-child {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+    
+    th:last-child {
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    tr.special-border th:nth-child(n+1):nth-child(-n+4) {
+        border-right: 1.5px solid #E8D8FF;
+     
+    }
+    td{
+        border: 1px solid #BCAAD7; 
+    }
+    tr:nth-child(odd) td {
+        background-color: white;
+    }
+
+table {
+width: 90%;
+border: 1px;
+margin: 0 auto; /* 将左右外边距设置为自动，实现水平居中 */
+margin-top:8px;
+
+
+}
+
+th{
+background-color:#BCAAD7;
+border: 1.5px solid #BCAAD7;
+color:white;
+text-align: center;
+width: 20%;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+font-weight: bolder;
+}
+
+
+
+th:first-child {
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+
+th:last-child {
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+
+tr.special-border th:nth-child(n+1):nth-child(-n+4) {
+border-right: 1.5px solid #E8D8FF;
+
+}
+td{
+border: 1px solid #b39ad8; 
+}
+tr:nth-child(even) td {
+background-color: #EEF1FF;
+}
+.container-table {
+margin-top: 0px;
+border-radius: 20px;
+border: 1px solid #A777F1;
+width: 93%;
+height: 150px;
+max-height: 400px;
+overflow-y: auto; 
+position: relative; /* 设置相对定位 */
+padding-left: 15px; /* 给箭头留出空间 */
+box-shadow:0px 10px 10px rgba(0,0,0,0.20);
+overflow-x: hidden;
+}
+
+
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 30px solid #A777F1; /* 白色三角形 */
+    position: relative;
+    margin-top:25px;    
+    margin-left:950px;
+}
+
+.triangle::before {
+    content: "";
+    position: absolute;
+    top: 3px; /* 向下偏移 3px */
+    left: -20px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 30px solid #FCFDFF; /* 紫色三角形 */
+    z-index: 1;
+}
